@@ -1,0 +1,176 @@
+\chapter{Measure Theory}
+
+\begin{introduction}[Key words]
+  \item Exterior measure
+  \item (Lebesgue) measurable set
+  \item (Lebesgue) measurable functions
+  \item $\sigma$-algebra and Borel sets
+  \item Littlewood's three principles
+  \item The Cantor set
+\end{introduction}
+
+\section{Exercises}
+
+\begin{Exercise}[9 (Thick Boundary)]
+  Give an example of an open set $\open$ with $m(\partial\open)>0$.
+\end{Exercise}
+
+\begin{hint}
+  Enumerate rationals in $[0,1]$ and denote the $n$-th rationals as $r_n$. Then $B=\bigcup B(r_n,1/2^{n+1})$ is what we desire.
+\end{hint}
+\begin{note}
+  It is intriguing that $B^c$ is a closed set with $m(B^c\cap[0,1])>0$, but $B^c\cap[0,1]$ contains no rationals.
+\end{note}
+
+\begin{Exercise}[13]
+  The following deals with $\intersect$ and $\union$ sets.
+  \begin{itemize}
+    \item [(a)] Show that a closed set is a $\intersect$ and an open set an $\union$.
+    \item [(b)] Give an example of an $\union$ which is not an $\intersect$.
+    \item [(c)] Give an example of a Borel set which is not a $\intersect$ nor an $\union$.
+  \end{itemize}
+\end{Exercise}
+
+\begin{Solution}
+  \begin{itemize}
+    \item [(a)] If $F$ is closed, we consider the open sets $\open_n=\{x:d(x,F)<1/n\}$. In fact, $F=\bigcap\open_n$. As for the open set, take the complement.
+    \item [(b)] Let $F$ be a denumerable set that is dense at the same time. Clearly $F$ is an $\union$ [Say, $\rational$]. Assume $F=\bigcap\open_n$. If we subtract the $n$-th element $f_n$ of $F$ from $\open_n$, then we must have $\emptyset=\bigcap(\open_n-\{f_n\})$. To avoid notational clutter, let $F_n$ denote $\bigcap_{k\leq n}(\open_k-\{f_k\})$, then $F_n$ is open and dense for all $n$. Moreover, $F_n\searrow \emptyset$.
+   
+    Now we may choose $[a_0,b_0]\subseteq F_0$. Since $F_1$ is dense, we can always select a sub-interval $[a_1, b_1]\subseteq F_1\cap[a_0,b_0]$. Proceed this procedure indefinitely, and we will get a sequence $[a_{i+1}, b_{i+1}]\subseteq F_{i+1}\cap[a_i,b_i]$. Note at this point, however, that the nested intervals theorem guarantees $\bigcap[a_i,b_i]\neq\emptyset$, which contradicts the property of $\{F_n\}$ aforementioned.
+    \item [(c)] For $x<0$ let all rationals in $F$. Otherwise, let all irrationals in $F$.
+  \end{itemize}
+\end{Solution}
+
+\begin{Exercise}[23 (Separate Continuity)]
+  Suppose $f(x,y)$ is a function on $\real^2$ that is separately continuous: for each fixed variable, $f$ is continuous in the other variable. Prove that $f$ is measurable.
+\end{Exercise}
+
+\begin{Solution}
+  Define $f_n(\frac{k+\eta}{2^n},y)=(1-\eta)f(\frac{k}{2^n},y)+\eta f(\frac{k+1}{2^n},y)$, for $k\in\mathbb{N}$ and $\eta\in[0,1)$. Clearly, $f_n$ is measurable and $f_n\to f$ for all $(x,y)$.
+\end{Solution}
+
+\begin{remark}
+  Moreover, for any $\esp>0$, there exists a closed set $F$ such that $m(F^c)<\esp$ and $f\restrict{F}$ is continuous.
+\end{remark}
+
+\begin{Exercise}[35']
+  Show that not all Lebesgue measurable sets are Borel sets from these two perspectives:
+  \begin{itemize}
+    \item [(a)] Continuous functions.
+    \item [(b)] Slicing.
+  \end{itemize}
+\end{Exercise}
+
+\begin{hint}
+  For (a), you may want to show that some continuous functions map a measurable set to a non-measurable one, while all the continuous functions map Borel sets to Borel sets.
+  For (b), you may want to show that there exists a measurable set such that some of its slices can be non-measurable, while the slices of Borel sets are still Borel.
+  To deal with the Borel set, you may find \textbf{good set principle} rather helpful.
+\end{hint}
+
+\section{Problems}
+\begin{Problem}[4]
+  Prove that a bounded function on an interval $J=[a,b]$ is Riemann integrable iff its set of discontinuities has measure 0. 
+  
+  Proceed in this way:
+  \begin{itemize}
+    \item [(a)] For every $\esp>0$, the set of points $c$ in $J$ s.t. $\osc(f,c)\geq\esp$ is compact.
+    \item [(b)] Establish the sufficiency.
+    \item [(c)] Establish the necessity.
+  \end{itemize}
+\end{Problem}
+
+\begin{Solution}
+  \begin{itemize}
+    \item [(a)] It is not hard to observe.
+    \item [(b)] Given $\esp>0$, let $A_\esp=\{c\in J: \osc(f,c)\geq\esp\}$, then $m(A_\esp)=0$. Let $\mathcal{A}$ be an open coverage whose measure is less than $\esp$. By virtue of Heine-Borel property, we can pick an coverage comprised of only a finite number of intervals. Denote its number to be $N$. We may assume that $\mathcal{A}$ is union of finitely many intervals.
+    
+    On compact set $J-\bigcup_{I\in\mathcal{A}}I$, function $f$ is continuous. Thus, it is uniformly continuous. I.e., there exists $\delta$ such that $|x-y|<\delta$ implies $|f(x)-f(y)|<\esp$.
+    As long as the partition is less than $\min(\esp,\delta)$, at most $3N$ intervals will intersect with $A_\esp$. The difference of this partition is at most $m([a,b])\esp+6NM\esp$, where $M<\infty$ satisfies that $M>|f|$. Since $N$ is predetermined by the coverage, the bound can be arbitrarily close to 0.
+    \item [(c)] We show that $A_{1/n}$ has measure zero. For any given $\esp>0$, there exists a partition such that its difference is less than $\frac{\esp}{n}$. If one of its interior contains a point in $A_{1/n}$, the amptitude of this interval is at least $\frac1n$. By Chebyshev inequality, we have that the length of such intervals is less than $\esp$. Futhermore, the boundary has measure 0, so $A_{1/n}$ can be covered by an open set of measure $\esp$. We complete the proof.
+  \end{itemize} 
+\end{Solution}
+
+\begin{remark}
+  The proof above relies heavily on the simple structure of open sets and partition in $\real$. To generalize it to $\real^d$, you may find that Exercise 1.13 (a) comes in handy. Also, you may try to substitute $J$ with a compact set.
+\end{remark}
+
+\begin{Problem}[5]
+  Suppose $E$ is measurable with finite measure, and
+  $$
+  E=E_1\cup E_2,\quad E_1\cap E_2=\emptyset.
+  $$
+  If $m(E)=m_*(E_1)+m_*(E_2)$, then both $E_1$ and $E_2$ are measurable.
+\end{Problem}
+
+
+\begin{Solution}
+  We may assume that $E$ is open. [Exercise: Generalize the following to any $E$.]
+
+  It suffices to show that for any given $\esp>0$, there exists an open set $E_1'\supseteq E_1$ such that $m_*(E_1'-E_1)<\esp$.
+  Indeed, there exists an open set $E_1'$ that is sandwiched between $E_1$ and $E$. Moreover, $m(E_1')-m_*(E_1)<\frac{\esp}2$. Likewise, we can find $E_2'$. We have
+  \begin{align*}
+  m_*(E_1'-E_1)&\leq m\left((E_1'-E_1)\cup(E_2'-E_2)\right)\\
+  &=m(E-(E-E_1')\cup(E-E_2'))\\
+  &=m(E)-m(E-E_1')-m(E-E_2')\\
+  &=m(E_1')+m(E_2')-m(E)<\esp,
+  \end{align*}
+  which gives the desired result.
+\end{Solution}
+
+\begin{Problem}[5']
+	Suppose $E$ is measurable with finite measure, then for any subset $F\subseteq\mathbb{R}^d$ that is disjoint with $E$, the identity $m_*(E\cup F)=m(E)+m_*(F)$ always holds.
+\end{Problem}
+
+\begin{Solution}
+  WLOG, assume that $m_*(G)<\infty$, where $G$ denotes $E\cup F$. Given any $\esp>0$, we may choose a closed set $E'\subseteq E$ with $m(E-E')<\frac{\esp}{2}$ and an open set $G'\supseteq G$ with $m(G')-m_*(G)<\frac{\esp}{2}$.
+  Note that $G'-E'$ is open. Besides, $F\subseteq G'-E'$. Finally, $m_*(F')\leq m(G'-E')=m(G')-m(E')<m_*(G)-m(E)+\esp$. Since $\esp$ can be arbitrarily small, $m_*(G)\geq m(E)+m_*(F)$.
+\end{Solution}
+
+\section{Supplementaries}
+
+\begin{Exercise}[a]
+  In this exercise, we show that several other operations perserve measurability while some may not.
+  We begin by assume $f$ to be measurable on $\real^d$.
+  \begin{itemize}
+    \item [(a)] Show that
+    $$
+    g(x)=\limsup_{r\searrow0}|f(x+r)-f(x)|
+    $$
+    is measurable.
+    \item [(b)] Further assume that $f$ is continuous. Prove that
+    $$
+    h(x)=\limsup_{r\searrow0}\left|\frac{f(x+r)-f(x)}{r}\right|
+    $$
+    is also measurable.
+  \end{itemize}
+\end{Exercise}
+
+\begin{Solution}
+  For (a), note that $\overline{f}_r(x)=\sup_{y\in[0,r]}f(x+y)$ is measurable due to the fact that $\bigcup_{0\leq y\leq r}(E+y)$ is measurable as long as $E$ is measurable. So is $\underline{f}_r(x)=\inf_{y\in[0,r]}f(x+y)$. Then \mbox{$f_r(x)=\sup_{y\in[0,r]}|f(x+y)-f(x)|$} is clearly measurable since
+  $$
+  f_r(x)=\max(\overline{f}_r(x)-f(x),f(x)-\underline{f}_r(x)).
+  $$
+  By a limiting argument, clearly (a) holds.
+
+  For (b), we approach $g_r(x)=\sup_{y\in[0,r]}\left|\frac{f(x+y)-f(x)}y\right|$ by taking supreme over all functions defined by $\left|\frac{f(x+y)-f(x)}{y}\right|$ where $y\in\rational$ and is between $0$ and $r$. It follows that $h=\lim_{\stackrel{n\to\infty}{n\in\nature}}g_{1/n}$ is measurable.
+\end{Solution}
+
+\begin{Exercise}[b (Carath\'eodory Measurability)]
+  A set $E\subseteq\real^d$ is \textbf{Carath\'eodory measurable} if for every $A\subseteq\real^d$,
+  $$
+  m_*(A)=m_*(E\cap A)+m_*(E^c\cap A).
+  $$
+  This condition is sometimes referred to as the separation condition. Prove that this notion coincides with Lebesgue measurability in $\real^d$.
+
+  In fact, this ingenious observation first made by Carath\'eodory generalizes the notion of measurability given an outer measure. Refer to Chapter 7 for more information.
+\end{Exercise}
+
+\begin{Solution}
+  Let $E$ be Lebesgue measurable. Find a sequence of open sets $\open_n\searrow \open$ with the property that $A\subseteq \open$ and that $m_*(A)=m(\open)$. We have for every $n\in\nature$, $m_*(\open_n)=m_*(E\cap\open_n)+m_*(E^c\cap\open_n)$. Letting $n$ tends to $\infty$, we have
+  $$
+  m_*(A)=m(\open)=m_*(E\cap \open)+m_*(E^c\cap \open)\geq m_*(E\cap A)+m_*(E^c\cap A).
+  $$
+  The other side of inequality is a simple argument of sub-additivity. Combined these two sides, $E$ is Carath\'eodory measurable.
+
+  Now we turn to the reverse order. Taking $A=C_n$ as the cube centered at the origin and with side length $n$, we have $E\cap C_n$ is Lebesgue measurable due to Problem 1.5 above. Consequently, $E=\bigcup_n(E\cap C_n)$ is Lebesgue measurable.
+\end{Solution}
