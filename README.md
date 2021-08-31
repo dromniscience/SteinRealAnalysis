@@ -9,7 +9,7 @@ You may read the next few sections first for a crude understanding of this proje
 - Non-profit
 
 Collaborators are desired to meet these requirements:
-1. Good undergraduate discipline of Mathematics, especially a comprehensive training practice in elementary analysis and linear algebra.
+1. Good undergraduate discipline of Mathematics, especially a comprehensive practice in elementary analysis and linear algebra.
 2. (If your mother language is not English) Comfort with English writing.
 3. Eagerness to share your ideas.
 4. No fear of making mistakes.
@@ -38,7 +38,7 @@ My plan is to cover
 The <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> template of this book is modified from [ElegantBook: An open source <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> programme](https://github.com/ElegantLaTeX/ElegantBook).
 
 ## How to use it?
-Unless otherwise noted, the solutions in this book are the fruits of independent effort. If you are a student enrolled in a class whose textbook is exactly this one, please do not plagiarize any content from this book as your homework. If you are an amateur of solving puzzles and read this book purely for fun, you are suggested to seek its help after giving the conundrum a third shot at least.
+Unless otherwise noted, the solutions in this book are the fruits of independent effort. If you are a student enrolled in a class whose textbook is exactly this one, please do not plagiarize any content from this document as your homework. If you are an amateur of solving puzzles and read this book purely for fun, you are suggested to seek its help after giving the conundrum a third shot at least.
 
 ## Organization of the book
 Each chapter is divided into three sections, namely exercises, problems and supplementaries (optional). Presented in supplementaries are auxiliary materials that can better understanding of other content in the textbook.
@@ -50,7 +50,7 @@ My schedule is usually crammed, unfortunately, so I make my best effort not to d
 
 
 ## Disclaimer
-Though I think to myself that I am into preciseness and rigor when it comes to mathematics, I do not mean that every single proof presented in this little book is correct and the most elegant possible. In fact, they are just highly likely to be correct but are unlikely to be the most enlightening.
+Though I think I am into preciseness and rigor when it comes to mathematics, I do not mean that every single proof presented in this little book is correct and the most elegant possible. In fact, they are just highly likely to be correct but are unlikely to be the most enlightening.
 
 ## Error Report
 If you find errors, please please do report it. A BIG THANK to U in advance! 🥰
