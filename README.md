@@ -55,4 +55,4 @@ Though I think I am into preciseness and rigor when it comes to Mathematics, I d
 ## Error Report
 If you find errors, please please do report it. A BIG THANK to U in advance! 🥰
 
-You may report a grammar mistake, a typo, a misformat or the incorrectness of a proof (~~Sincerely hope this is not the case 🥺~~). You can send email either to dr_abc@pku.edu.cn or dromniscience@gmail.com and I will reply as early as possible. Please do not send me messages over Github since I am likely to miss it. Thank you for your understanding!
+You may report a grammar mistake, a typo, a misformat or the incorrectness of a proof (~~Sincerely hope this is not the case 🥺~~). You can send email either to dr_abc@pku.edu.cn or dromniscience@gmail.com and I will reply as soon as possible. Please do not send me messages over Github since I am likely to miss it. Thank you for your understanding!
