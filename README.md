@@ -35,6 +35,8 @@ My plan is to cover
 - Ch6: Abstract measure and Integration Thoery
 - Ch7: Hausdroff Measure and Fractals
 
+The template of this book is modified from [ElegantBook: An open source $\LaTeX$ programme](https://github.com/ElegantLaTeX/ElegantBook).
+
 ## How to use it?
 Unless otherwise noted, the solutions in this book are the fruits of independent effort. If you are a student enrolled in a class whose textbook is exactly this one, please do not plagiarize any content from this book as your homework. If you are an amateur of solving puzzles and read this book purely for fun, you are suggested to seek its help after giving the conundrum a third shot at least.
 
