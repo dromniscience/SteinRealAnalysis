@@ -1,6 +1,6 @@
 # Workbook of Real Analysis
 
-## Collaberations wanted!
+## Collaborations wanted!
 
 You may read the next few sections first for a crude understanding of this project. Here are some brief descriptions:
 
