@@ -43,7 +43,7 @@ Unless otherwise noted, the solutions in this book are the fruits of independent
 ## Organization of the book
 Each chapter is divided into three sections, namely exercises, problems and supplementaries (optional). Presented in supplementaries are auxiliary materials that can better understanding of other content in the textbook.
 
-My schedule is usually crammed, unfortunately, so I make my best effort not to dull my minds with typing answers to those easy and warm-up exercises. For the rest of them, I try my best to answer. If the problem you are looking for is missing, three situations are possible:
+My schedule is usually crammed, unfortunately, so I make my best effort not to dull my minds with typing answers to those easy and warm-up exercises. For the rest of them, I try my best to answer. If the problem you are looking for is missing, three possible cases can be identified:
 - I decided not to include it, because either the hint in the book reveals virtually all the stories, or it is simple and is not in connection with further problems.
 - I have not worked it out either.
 - I may type a solution soon.
