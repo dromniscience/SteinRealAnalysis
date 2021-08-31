@@ -1,15 +1,3 @@
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
-
 # Workbook of Real Analysis
 
 ## Collaberations wanted!
@@ -25,12 +13,12 @@ Collaborators are desired to meet these requirements:
 2. (If your mother language is not English) Comfort with English writing.
 3. Eagerness to share your ideas.
 4. No fear of making mistakes.
-5. Not thinking that my $\LaTeX$ writing sucks. [But you are free to roast my writing.😀]
+5. Not thinking that my <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> writing sucks. [But you are free to roast my writing.😀]
 
-The $\TeX$ files of the first chapter and the main book are provided in this repo. I firmly hold on to my belief in writing with $\LaTeX$:
+The <img src="svgs/1f0597fbd477973ca54be5f188c6438f.svg?invert_in_darkmode" align=middle width=33.19013609999999pt height=22.465723500000017pt/> files of the first chapter and the main book are provided in this repo. I firmly hold on to my belief in writing with <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/>:
 > Simple is better than complex.  
 > Flat is better than nested.  
-> *-- Excerpted from the Zen of Python, not exactly $\LaTeX$*
+> *-- Excerpted from the Zen of Python, not exactly <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/>*
 
 Go check it yourself if there are doubts.
 
@@ -47,7 +35,7 @@ My plan is to cover
 - Ch6: Abstract measure and Integration Thoery
 - Ch7: Hausdroff Measure and Fractals
 
-The $\LaTeX$ template of this book is modified from [ElegantBook: An open source $\LaTeX$ programme](https://github.com/ElegantLaTeX/ElegantBook).
+The <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> template of this book is modified from [ElegantBook: An open source <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> programme](https://github.com/ElegantLaTeX/ElegantBook).
 
 ## How to use it?
 Unless otherwise noted, the solutions in this book are the fruits of independent effort. If you are a student enrolled in a class whose textbook is exactly this one, please do not plagiarize any content from this book as your homework. If you are an amateur of solving puzzles and read this book purely for fun, you are suggested to seek its help after giving the conundrum a third shot at least.
