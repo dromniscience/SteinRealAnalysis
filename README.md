@@ -1,4 +1,4 @@
-# Solutions to Exercises \& Problems in Real Analysis
+# Solutions to Exercises & Problems in Real Analysis
 
 ## Collaborations wanted!
 
@@ -7,18 +7,18 @@ You may read the next few sections first for a crude understanding of this proje
 - Overleaf based
 - Work any time
 - Non-profit
-
+E
 Collaborators are desired to meet these requirements:
 1. Good undergraduate discipline of Mathematics, especially a comprehensive practice in elementary analysis and linear algebra.
 2. (If your mother language is not English) Comfort with English writing.
 3. Eagerness to share your ideas.
 4. No fear of making mistakes.
-5. Not thinking that my <img src="http://latex.codecogs.com/gif.latex?\TeX" /> writing sucks. [But you are free to roast my writing.😀]
+5. Not thinking that my <img src="svgs/1f0597fbd477973ca54be5f188c6438f.svg?invert_in_darkmode" align=middle width=33.19013609999999pt height=22.465723500000017pt/> writing sucks. [But you are free to roast my writing.😀]
 
-The <img src="http://latex.codecogs.com/gif.latex?\TeX" /> files of the first chapter and the main book are provided in this repo. I firmly hold on to my belief in writing with <img src="http://latex.codecogs.com/gif.latex?\LaTeX" />:
+The <img src="svgs/1f0597fbd477973ca54be5f188c6438f.svg?invert_in_darkmode" align=middle width=33.19013609999999pt height=22.465723500000017pt/> files of the first chapter and the main book are provided in this repo. I firmly hold on to my belief in writing with <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/>:
 > Simple is better than complex.  
 > Flat is better than nested.  
-> *-- Excerpted from the Zen of Python, not exactly <img src="http://latex.codecogs.com/gif.latex?\LaTeX" />*
+> *-- Excerpted from the Zen of Python, not exactly <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/>*
 
 Go check it yourself if there are doubts. Please contact me via email at dr_abc@pku.edu.cn or dromniscience@gmail.com if you have any idea.
 
@@ -35,7 +35,7 @@ My plan is to cover
 - Ch6: Abstract measure and Integration Thoery
 - Ch7: Hausdroff Measure and Fractals
 
-The <img src="http://latex.codecogs.com/gif.latex?\LaTeX" /> template of this book is modified from [ElegantLaTeX: An open source <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> programme](https://github.com/ElegantLaTeX/ElegantBook).
+The <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> template of this book is modified from [ElegantLaTeX: An open source <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> programme](https://github.com/ElegantLaTeX/ElegantBook).
 
 ## How to use it?
 Unless otherwise noted, the solutions in this book are the fruits of independent effort. If you are a student enrolled in a class whose textbook is exactly this one, please do not plagiarize any content from this document as your homework. If you are an amateur of solving puzzles and read this book purely for fun, you are suggested to seek its help after giving the conundrum a third shot at least.
