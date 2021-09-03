@@ -13,7 +13,7 @@ Collaborators are desired to meet these requirements:
 2. (If your mother language is not English) Comfort with English writing.
 3. Eagerness to share your ideas.
 4. No fear of making mistakes.
-5. Not thinking that my <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/> writing sucks. [But you are free to roast my writing.😀]
+5. Not thinking that my $\TeX$ writing sucks. [But you are free to roast my writing.😀]
 
 The <img src="svgs/1f0597fbd477973ca54be5f188c6438f.svg?invert_in_darkmode" align=middle width=33.19013609999999pt height=22.465723500000017pt/> files of the first chapter and the main book are provided in this repo. I firmly hold on to my belief in writing with <img src="svgs/87181ad2b235919e0785dee664166921.svg?invert_in_darkmode" align=middle width=45.69716744999999pt height=22.465723500000017pt/>:
 > Simple is better than complex.  
