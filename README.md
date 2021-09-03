@@ -7,7 +7,7 @@ You may read the next few sections first for a crude understanding of this proje
 - Overleaf based
 - Work any time
 - Non-profit
-E
+
 Collaborators are desired to meet these requirements:
 1. Good undergraduate discipline of Mathematics, especially a comprehensive practice in elementary analysis and linear algebra.
 2. (If your mother language is not English) Comfort with English writing.
