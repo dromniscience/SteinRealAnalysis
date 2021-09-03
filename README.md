@@ -1,4 +1,4 @@
-# Workbook of Real Analysis
+# Solution book of Real Analysis
 
 ## Collaborations wanted!
 
@@ -23,7 +23,7 @@ The <img src="svgs/1f0597fbd477973ca54be5f188c6438f.svg?invert_in_darkmode" alig
 Go check it yourself if there are doubts. Please contact me via email at dr_abc@pku.edu.cn or dromniscience@gmail.com if you have any idea.
 
 ## What is it?
-This cute little book serves as a collection of my solutions to exercises and problems in [Real Analysis: Measure Theory, Integration and Hilbert Spaces](https://press.princeton.edu/books/hardcover/9780691113869/real-analysis) by Elias M. Stein and Rami Shakarchi. It is still *in progress* and the current work covered the first four chapters:
+As its name suggests, this cute little book serves as a collection of my solutions to exercises and problems in [*Real Analysis: Measure Theory, Integration and Hilbert Spaces* (Stein & Shakarchi, 2005)](https://press.princeton.edu/books/hardcover/9780691113869/real-analysis). It is still *in progress* and the current work covered the first four chapters:
 
 - Ch1: Measure Theory
 - Ch2: Integration Theory
