@@ -67,6 +67,24 @@
   To deal with the Borel set, you may find \textbf{good set principle} rather helpful.
 \end{hint}
 
+\begin{Exercise}[36]
+  Construct a Borel set on $\real$ such that it has a postive but not full measure on each open interval in $\real$.
+\end{Exercise}
+
+\begin{remark}
+  This brilliant idea is attributed to Nick Strehlke in his answer to \href{https://math.stackexchange.com/questions/57317/construction-of-a-borel-set-with-positive-but-not-full-measure-in-each-interval}{this post on math.stackexchange.com}.
+\end{remark}
+
+\begin{Solution}
+  Let $\{r_n\}_{n=1}^\infty$ be an enumeration of all ratioanls in $\real$ and $I_n$ the open interval centered at $r_n$ and with radius $3^{-n}$. Further, let $I_n'=I_n-\bigcup_{k>n}I_k$. Then $I_n'$s are disjoint and we must have
+  \begin{align*}
+    m(I_n')\geq m(I_n)-\sum_{k>n}m(I_k)=\frac1{3^n}.
+  \end{align*}
+  Choose a closed set $\closed_n$ in each $I_n'$ with $0<m(\closed_n)<m(I_n')$. We claim that $B=\bigcup_{n}\closed_n$ is the desired set. Obviously, $B$ is a Borel set. Since each interval $(a,b)$ must contain a $I_n$ (e.g. trisect it evenly and consider a rational in the middle part whose index is sufficiently large), $B$ cannot be null restricted to $(a,b)$. Moreover, since $I_n'$s are disjoint, $B$ cannot be full on it either. This verifies that $B$ is a candidate.
+
+  By the way, it is noteworthy that $B$ has only a finite measure.
+\end{Solution}
+
 \section{Problems}
 \begin{Problem}[4]
   Prove that a bounded function on an interval $J=[a,b]$ is Riemann integrable iff its set of discontinuities has measure 0. 
@@ -174,4 +192,3 @@
 
   Now we turn to the reverse order. Taking $A=C_n$ as the cube centered at the origin and with side length $n$, we have $E\cap C_n$ is Lebesgue measurable due to Problem 1.5 above. Consequently, $E=\bigcup_n(E\cap C_n)$ is Lebesgue measurable.
 \end{Solution}
-
